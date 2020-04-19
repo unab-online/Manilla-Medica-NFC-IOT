@@ -10,7 +10,7 @@ Paciente p =Paciente("","","","","","","");
     // TODO: implement build
     return Scaffold(
      appBar: AppBar(
-       title: Text("Datos del usuario "),
+       title: Text("Datos del usuario"),
      ) ,
      body: Padding(
        padding: EdgeInsets.all(20.0),

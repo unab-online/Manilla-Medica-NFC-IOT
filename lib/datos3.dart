@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:inicio/paciente.dart';
 
@@ -149,9 +151,21 @@ Text(p.getObervaciones,
 
  ],
 ),
+Column(
+  children:<Widget>[
+  RaisedButton(
+    child: Text("Leer"),
+    onPressed: (){
 
+    },
+  
+  ),
+  ],
+
+  ),
 
              ],
+             
            ),
            
          ))

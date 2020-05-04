@@ -1,6 +1,5 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
+import 'package:inicio/datos4.dart';
 import 'package:inicio/paciente.dart';
 
 class TerceraPantalla extends StatelessWidget {
@@ -18,7 +17,19 @@ Paciente p =Paciente("","","","","","","");
        padding: EdgeInsets.all(20.0),
        child: Container(
         alignment: Alignment.topLeft,
-           child: Row(
+       child: Column(
+  children:<Widget>[
+  RaisedButton(
+    child: Text("Leer"),
+    onPressed: (){
+   Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => ExampleApp()),
+  );
+    },
+  
+  ),
+   Row(
 
 
              children: <Widget>[
@@ -152,22 +163,15 @@ Text(p.getObervaciones,
 
  ],
 ),
-Column(
-  children:<Widget>[
-  RaisedButton(
-    child: Text("Leer"),
-    onPressed: (){
 
-    },
-  
-  ),
-  ],
-
-  ),
 
              ],
              
            ),
+  ],
+
+  ),
+           
            
          ))
        

@@ -38,6 +38,7 @@ Text(
     fontFamily: 'Raleway',
   ),
 ),
+
 Text("Edad",
    textAlign: TextAlign.left,
   style: TextStyle(
